@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #AC474B;
+}
+
+.squares{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+
+    
+}
+
+.square{
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.gift_butterfly{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.gift_butterfly .fly_left{
+    border: 10px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px 20px 0 20px;
+}
+
+.gift_butterfly .fly_right{
+    border: 10px solid white;
+    width: 40px;
+    height: 40px;
+    margin-left: -7px;
+    border-radius: 20px 20px 20px 0;
+}
